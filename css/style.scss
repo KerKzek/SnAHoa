@@ -70,7 +70,7 @@ body {
 .heading_container {
   text-align: center;
   margin    : 0 auto;
-
+  
   h2 {
     font-weight   : bold;
     text-align    : center;
@@ -80,7 +80,12 @@ body {
   }
 
   p {
+  margin    : 0 auto;
+
     color: rgb(0, 162, 255);
+    text-align: center;
+    font-size: 1.2rem;
+    width: 300px;
   }
 }
 
@@ -477,7 +482,7 @@ a:focus {
       .img-box {
         width              : 100%;
         // position: relative;
-        padding            : 20px;
+        padding            : 0 20px;
         height             : 500px;
         // background-color: #1f1f1f;
 

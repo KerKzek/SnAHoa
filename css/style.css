@@ -40,7 +40,11 @@ body {
   color: #fff;
 }
 .heading_container p {
+  margin: 0 auto;
   color: rgb(0, 162, 255);
+  text-align: center;
+  font-size: 1.2rem;
+  width: 300px;
 }
 
 /*header section*/
@@ -372,7 +376,7 @@ a:focus {
 }
 .class_section .class_box-container .box .img-box {
   width: 100%;
-  padding: 20px;
+  padding: 0 20px;
   height: 500px;
   display: flex;
   align-items: center;
